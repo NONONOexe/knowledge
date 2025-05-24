@@ -2,5 +2,4 @@
 title: index
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+本サイトは筆者（[[NONONOexe]]）が[[Obsidian]]で記録したノートのうち，整理されたノートを知識（knowledge）として公開するものである．
