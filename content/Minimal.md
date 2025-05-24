@@ -1,4 +1,6 @@
-# Minimal
+---
+title: Minimal
+---
 
 Minimalは[[Obsidian]]の[[コミュニティテーマ]]の一つである．[[@kepano]]氏によって開発され，気が散る要素が少なく（[[distraction-free]]），高いカスタマイズ性を持つことが特徴である[^web-kepano_minimal]．
 

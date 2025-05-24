@@ -1,10 +1,9 @@
 ---
+title: OSRM（サービス）
 aliases:
   - OSRM
   - Open Source Routing Machine
 ---
-
-# OSRM（サービス）
 
 OSRM（Open Source Routing Machine）は[[OpenStreetMap]]（OSM）の道路データを用いた経路検索サービスである[^web-osrm]．OSRMを用いると，指定した始点と終点との間の経路について，そのジオメトリや移動時間などの情報が得られる．一から経路を計算により求める場合と比べて，道路ネットワークの構築や探索アルゴリズムを用意することなく経路情報を得られる．また，C++を用いて実装されており，高速に経路の計算がなされる点も利点として挙げられる．
 

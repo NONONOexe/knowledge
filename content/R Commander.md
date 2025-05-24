@@ -1,4 +1,6 @@
-# R Commander
+---
+title: R Commander
+---
 
 R Commanderは[[GUI]]で操作可能な[[R]]である．基本的な統計処理を提供している．「[[Rcmdr]]」というパッケージをインストールすることで利用できる[^web-rcmdr]．
 

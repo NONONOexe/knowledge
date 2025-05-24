@@ -1,9 +1,8 @@
 ---
+title: Tidy data
 aliases:
   - 整然データ
 ---
-
-# Tidy data
 
 Tidy data（整然データ）とは，データ処理に適した[[データ形式]]であり，次の4つの条件を満たすデータのことをいう[^article-hadley-2014]．
 

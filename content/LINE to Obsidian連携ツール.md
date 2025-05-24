@@ -1,4 +1,6 @@
-# LINE to Obsidian連携ツール
+---
+title: LINE to Obsidian連携ツール
+---
 
 「LINE to Obsidian連携ツール」は[[LINE]]から[[Obsidian]]の[[Vault]]にメモを転送するためのツールである[^web-line_obsidian]．このツールを使うことで，スマートフォンから手軽にメモを作成し，Obsidianで整理，管理することができる．
 

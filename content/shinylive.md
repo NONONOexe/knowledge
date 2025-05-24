@@ -1,4 +1,6 @@
-# shinylive
+---
+title: shinylive
+---
 
 shinyliveは[[Shinyアプリケーション]]をブラウザのみで動くようにするツールである[^web-shinylive]．[[Shiny]]は本来，[[Python]]や[[R]]の環境を必要とするが，これを[[WebAssembly]]にコンパイルすることで，ブラウザ単体での実行を可能とする．
 

@@ -1,9 +1,8 @@
 ---
+title: osrm（Rパッケージ）
 aliases:
   - osrm
 ---
-
-# osrm（Rパッケージ）
 
 osrmは[[R Commander]]で使用できる[[OSRM（サービス）|OSRM]]の[[APIラッパー]]である[^web-osrm_r]．この[[Rパッケージ]]は経路のリクエストについて，Rで扱いやすいように，[[sf]]クラスを用いたインタフェースが実現されている．
 

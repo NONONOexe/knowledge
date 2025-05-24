@@ -1,4 +1,6 @@
-# Zettelkasten
+---
+title: Zettelkasten
+---
 
 Zettelkasten（ツェッテルカステン）は社会学者の[[ニクラス・ルーマン]]が開発した情報管理システムである．ニクラスはZettelkastenを物理的な紙のメモにおいておこなっていた．近年では，Zettelkastenを導入した電子的なノートツールが増えてきている．[[Cosense]]や[[Obsidian]]もこれに属する[^web-zettelkasten]．
 
