@@ -281,7 +281,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 if (!exists) {
                   return {
                     type: "html",
-                    value: `<a class=\"internal-link broken\">${alias ?? fp}</a>`,
+                    value: `<a class=\"internal broken\">${alias ?? fp}</a>`,
                   }
                 }
 
