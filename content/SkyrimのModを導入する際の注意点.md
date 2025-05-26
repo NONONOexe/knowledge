@@ -10,4 +10,4 @@ title: SkyrimのModを導入する際の注意点
 
 ## Skyrimのバージョン
 
-[[Skyrim]]にModを導入する際には，プレイしているSkyrimのバージョンを考慮する必要がある．2025年現在，Steamの[[Skyrim Special Edition]]のバージョンは1.6.1170である．バージョン1.6.1170については，ツールやModのダウンロードページなどで，[[Anniversary Edition]]を意味する「AE」という表記がなされている．しかし，これはAnniversary Editionのバージョンであるということでないため，注意が必要である．あくまで「AE」と同時にリリースされたものという意味で，Special Editionの方のゲームプログラムも更新されている．
+[[Skyrim]]にModを導入する際には，プレイしているSkyrimのバージョンを考慮する必要がある．2025年現在，SteamのSkyrim [[Skyrim|Special Edition]]のバージョンは1.6.1170である．バージョン1.6.1170については，ツールやModのダウンロードページなどで，[[Skyrim|Anniversary Edition]]を意味する「AE」という表記がなされている．しかし，これはAnniversary Editionのバージョンであるということでないため，注意が必要である．あくまで「AE」と同時にリリースされたものという意味で，Special Editionの方のゲームプログラムも更新されている．
