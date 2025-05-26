@@ -206,7 +206,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 
       return src
     },
-    markdownPlugins(_ctx) {
+    markdownPlugins(ctx) {
       const plugins: PluggableList = []
 
       // regex replacements
@@ -273,6 +273,16 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                   }
 
                   // otherwise, fall through to regular link
+                }
+
+                // check if the target file (as slug) exists in ctx.allSlugs; if not, treat as a broken internal link
+                const slug = slugifyFilePath(fp as FilePath)
+                const exists = ctx.allSlugs && ctx.allSlugs.includes(slug)
+                if (!exists) {
+                  return {
+                    type: "html",
+                    value: `<a class=\"internal-link broken\">${alias ?? fp}</a>`,
+                  }
                 }
 
                 // internal link
