@@ -1,5 +1,5 @@
 ---
-title: index
+title: Knowledge
 ---
 
-本サイトは[[安藤 圭祐|筆者]]が[[Obsidian]]で記録したノートのうち，整理されたノートを「知識（knowledge）」として公開するものである．本サイトは[[Quartz]]で構築されており，Obsidianの[[Vault]]から[[GitHub Actions]]により自動的にデプロイされている．
+Knowledgeは[[安藤 圭祐|筆者]]が[[Obsidian]]で記録したノートの中から，整理されたものを「知識（knowledge）」として公開しているものである．[[Quartz]]で構築されており，GitHub上のプライベートリポジトリとして管理されているObsidianの[[Vault]]から，その一部が[[GitHub Actions]]により自動的に同期，デプロイされている．
