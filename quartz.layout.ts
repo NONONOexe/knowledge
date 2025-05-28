@@ -27,8 +27,20 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   afterBody: [
     Component.ConditionalRender({
-      component: Component.RecentNotes({title: "新しいノート"}),
+      component: Component.RecentNotes({
+        title: "新しいノート",
+        limit: 5
+      }),
       condition: (page) => page.fileData.slug == "index",
+    }),
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        repo: 'NONONOexe/knowledge',
+        repoId: 'R_kgDOOvMowg',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOOvMows4CqsDf',
+      }
     }),
   ],
   left: [
@@ -45,6 +57,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.PageCount(),
   ],
   right: [
     Component.Graph(),
