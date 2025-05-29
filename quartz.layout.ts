@@ -5,26 +5,6 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/NONONOexe",
-      Blog: "https://nononoexe.github.io/blog/"
-    },
-  }),
-}
-
-// components for pages that display a single page (e.g. a single note)
-export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],
   afterBody: [
     Component.ConditionalRender({
       component: Component.RecentNotes({
@@ -41,7 +21,29 @@ export const defaultContentPageLayout: PageLayout = {
         category: 'Announcements',
         categoryId: 'DIC_kwDOOvMows4CqsDf',
       }
+    })
+  ],
+  footer: Component.Footer({
+    links: {
+      GitHub: "https://github.com/NONONOexe",
+      Blog: "https://nononoexe.github.io/blog/",
+      X: "https://x.com/NONONOexe",
+      Facebook: "https://www.facebook.com/nononoexe",
+      researchmap: "https://researchmap.jp/nononoexe",
+    },
+  }),
+}
+
+// components for pages that display a single page (e.g. a single note)
+export const defaultContentPageLayout: PageLayout = {
+  beforeBody: [
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: (page) => page.fileData.slug !== "index",
     }),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
@@ -53,14 +55,20 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        { Component: Component.DesktopOnly(Component.ReaderMode()) },
       ],
     }),
     Component.Explorer(),
-    Component.PageCount(),
+    Component.DesktopOnly(Component.PageCount()),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+      globalGraph: {
+        repelForce: 3.0,
+        linkDistance: 100,
+        fontSize: 0.8,
+      }
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

@@ -1,10 +1,11 @@
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { classNames } from "../util/lang"
 
-function PageCount({ allFiles }: QuartzComponentProps) { // propsからallFilesを受け取るように変更
+const PageCount: QuartzComponent = ({ displayClass, allFiles }: QuartzComponentProps) => {
   const pageCount = allFiles.length
 
   return (
-    <div class="page-count">
+    <div class={classNames(displayClass, "page-count")}>
       <p>全{pageCount}ページ</p>
     </div>
   )
