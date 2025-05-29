@@ -1,10 +1,9 @@
 ---
 title: Tidy data
-aliases:
-  - 整然データ
+aliases: [整然データ]
 ---
 
-Tidy data（整然データ）とは，2014年に[[Hadley]]が提唱したデータ処理に適した[[データ形式]]である．データがTidy dataであるためには，次の4つの条件を満たさなければならない[^article-hadley-2014]．．
+Tidy data（整然データ）とは，2014年に[[Wickham]]が提唱したデータ処理に適した[[データ形式]]である．データがTidy dataであるためには，次の4つの条件を満たさなければならない[^article-hadley-2014]．
 
 1. 個々の変数（variable）が1つの列（column）をなす
 2. 個々の観測（observation）が1つの行（row）をなす
