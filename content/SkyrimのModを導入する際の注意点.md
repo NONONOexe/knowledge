@@ -4,7 +4,7 @@ title: SkyrimのModを導入する際の注意点
 
 ## Skyrimのインストール先
 
-[[Skyrim]]にModを導入する際には，Skyrimのインストール先をProgram Files以外の場所に指定した方がよい．これは予期しない問題が発生した場合に備え，システムフォルダであるProgram Filesを避け，被害を小さくするための対処である．[[Mod Organizer 2]]（MO2）からも次の警告が表示されるようになっている．
+[[Skyrim]]にModを導入する際には，Skyrimのインストール先をProgram Files以外の場所に指定した方がよい．これは予期しない問題が発生した場合に備え，システムフォルダであるProgram Filesを避け，被害を小さくするための対処である．[[Mod Orgnizer 2]]からも次の警告が表示されるようになっている．
 
 > the game is in program files; this may cause issues because it's a special system folder
 
