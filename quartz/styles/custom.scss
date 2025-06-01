@@ -1,3 +1,22 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Enable code block wrapping
+pre {
+  overflow-x: visible;
+  white-space: pre-wrap;
+}
+
+pre > code {
+  white-space: pre-wrap;
+}
+
+// Adjust indentation for wrapped lines to align with line numbers
+pre > code > [data-line] {
+  padding-left: 2.25rem; /* Left padding to align with line number + margin */
+}
+
+pre > code > [data-line]::before {
+  margin-left: -2.25rem; /* Negative margin to position line number within padding */
+}
