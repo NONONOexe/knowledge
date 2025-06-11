@@ -5,6 +5,6 @@ title: NONONOexeの作成したRパッケージ
 [[NONONOexe]]が作成した[[Rパッケージ]]には，次のものがある．これらは主に研究のデータ分析における再現性の確保を目的として，開発されている．
 
 - [[setariaviridis]]：エネコログサのデータパッケージ
-- [[rrstools]]：[[RoboCupRescue Simulation]]の分析用パッケージ
+- [[rrstools]]：[[ロボカップレスキューシミュレーション]]の分析用パッケージ
 - [[jpaccidents]]：警察庁の交通事故データを扱うためのパッケージ
 - [[aichicities]]：愛知県の行政区域データを扱うためのパッケージ
