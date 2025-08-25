@@ -2,7 +2,7 @@
 title: Positron
 ---
 
-Positronは[[Posit]]が開発したデータサイエンスのための[[IDE]]である．これは[[RStudio]]と同様の操作で，[[R]]や[[Python]]を実行できる．また，探索的なデータ分析を支援する[^web-positron]．
+Positronは[[Posit]]が開発したデータサイエンスのための[[IDE]]である．これは[[RStudio]]と同様の操作で，[[400 Knowledge/R]]や[[Python]]を実行できる．また，探索的なデータ分析を支援する[^web-positron]．
 
 Positronは[[オープンソース]]の[[VS Code]]である，[[Code OSS]]上に構築されたアプリケーションである．そのため，VS Codeと同様のUIを提供する．さらに，VS Codeの拡張機能を利用できる．
 
